@@ -1,4 +1,4 @@
-# Clon de la página de la página ElPOLONORTE de Wix 
+# Clon de la página ElPOLONORTE de Wix 
 
 
 <p>
@@ -83,7 +83,7 @@ VITE_BACKEND_URL="http://localhost:3000/"
 ```
 Wixpage\server>
 ```
-####Ruta del cliente:
+#### Ruta del cliente:
 ```
 Wixpage\client\ELPOLONORTE>
 ```
@@ -105,7 +105,8 @@ npm run dev
 <p>
 Puedes probar la API utilizando Postman o Thunder Client y enviando una petición JSON.
 </p>
-### Ruta: http://localhost:3000/log
+
+### Hacer login: http://localhost:3000/log
 ```
 {
     "user":"Fulano0123@gmail.com",
