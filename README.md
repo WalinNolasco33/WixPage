@@ -1,4 +1,4 @@
-#Clon de la página de la página ElPOLONORTE de Wix 
+# Clon de la página de la página ElPOLONORTE de Wix 
 
 
 <p>
@@ -12,15 +12,15 @@
 </ul>
 
 
-###Requisitos para ejecutar este proyecto
+### Requisitos para ejecutar este proyecto
 
 <ol>
   <li>Tener Node.js y npm instalados</li>
   <li>Tener MySQL instalado</li>
 </ol>
 
-###Dependencias utilizadas:
-####Back-End:
+### Dependencias utilizadas:
+#### Back-End:
 
 ``` 
 "dependencies": {
@@ -123,14 +123,14 @@ Puedes probar la API utilizando Postman o Thunder Client y enviando una petició
  "message":"Hola mundo"
 }
 ```
-###Para eliminar un usuario: http://localhost:3000/delete
+### Para eliminar un usuario: http://localhost:3000/delete
 ```
 {
     "name":"Fulano",
     "password":"4295f"
 }
 ```
-###Para usuarios con una sesión: http://localhost:3000/session
+### Para usuarios con una sesión: http://localhost:3000/session
 ```
 {
     "user":"Fulano0123@gmail.com",
