@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .products-area{
+        grid-template-areas: 
+        "mochilas bolsas-de-lona ."
+        "mochilas bolsas-de-viaje ."
+        ". . .";
+    }
+}
